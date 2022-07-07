@@ -11,7 +11,7 @@
     <FlyoutPage.Detail>
         <NavigationPage>
             <x:Arguments>
-                <local:HomePage/>
+                <local:WeatherPage/>
             </x:Arguments>
         </NavigationPage>
     </FlyoutPage.Detail>

@@ -8,7 +8,7 @@
         <ListView x:Name="listview" x:FieldModifier="public">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:FlyoutItemPage}">
-                    <local:FlyoutItemPage Title="Home" TargetPage="{x:Type local:HomePage}"/>
+                    <local:FlyoutItemPage Title="Weather" TargetPage="{x:Type local:WeatherPage}"/>
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
